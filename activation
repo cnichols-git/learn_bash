@@ -1,0 +1,24 @@
+#!/bin/bash
+
+##
+# A script that lauches some programs, user friendly way
+
+echo "What is the path?"
+read var1
+
+echo "What file are you working on?"
+read var2
+
+VAR1="/home/chris/Documents/projects"
+VAR2="activation.sh"
+atom $VAR1/$VAR2i &
+
+# variablize the terminal in case you ever change what you are using
+gnome-terminal -e htop
+
+google-chrome &
+
+
+#if [ -z ${var+x} ]; then echo "var is unset"; else echo "var is set to '$var'"; fi
+##eol
+
